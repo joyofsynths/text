@@ -5,17 +5,77 @@
   <title>Joy of Synths</title>
   <style>
     html { font-size: 16px; }
-    @media (max-width: 550px) { p { font-size: 1em; }}
-    @media (min-width: 551px) { p { font-size: 1.25em; }}
+    @media (min-width: 0px) { p { font-size: 1rem; } h1, h2, h3 {font-size: 1.1rem;}}
+    @media (min-width: 400px) { p { font-size: calc(1rem + 1vw); }
+    h1, h2, h3 { font-size: calc(1.1rem + 1vw); }}
+@media (min-width: 1001px){ p { font-size: 1.75rem;}
 
     body { font-size: 16px; }
       #em1, #em2 { font-size: 1.5em; }
     h1 {color:red;}
   p {color:blue;}
+  
+  /* creating the breadcrumb foundation */
+ul {  padding: 10px 16px; list-style: none;  background-color: #eee; } /* remove bullet points */
+ul li { display: inline; } /* show list items horizontally */
+/* Put an angle bracket (>) between list items */
+ul li+li:before {content: ">";padding: 10px;}
+ul li a { text-decoration: none; } /* remove underlines from links */
+ul li a:hover { text-decoration: underline; } /* show underline on mouseover */
+/* additional styling */
+ul {color: #425b76; font-family: "Avenir"; font-weight: bold;}
+ul li a {color: #7bbdcd;}
+ul li a:visited {color: #7bbdcd;}
+ul li+li:before { color: #99acc2; }
+
+  /* Pagination Links */
+  .pagination {
+  display: inline-block;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 1px solid #ddd;
+}
+
+.pagination a.active {
+  background-color: #4CAF50;
+  color: white;
+  border: 1px solid #4CAF50;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
+  
   </style>
 </head>
 <body>
+
   <h1>Joy of Synths</h1><h2>Sound Designing with Analog Synthesizers<h2>
+  <nav><ul>
+        <li><a href="#URL">Top-level page like Home</a></li>
+        <li><a href="#URL">Second-level page Blog</a></li>
+        <li><a href="#URL">Third-level page Spring 2022</a></li>
+        <li>Current Page Blog-Post-Title</li>
+    </ul>
+    <p>Next/Previous buttons:</p>
+<div class="pagination">
+  <a href="/index.html">❮</a>
+  <a href="blog.html">❯</a>
+</div>
+
+<p>Navigation pagination:</p>
+<div class="pagination">
+  <a href="#" class="active">Home</a>
+  <a href="#">Videos</a>
+  <a href="#">Store</a>
+  <a href="#">Contact</a>
+</div>
+
+</nav>
     <p id="em1">site for joyofsynths.com</p>
     <p>030322- The Goal is to have a somewhat functional site soon! Somewhat...
     </p>
