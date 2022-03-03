@@ -6,7 +6,7 @@
   <style type="text/css">
     * { margin: 0; padding: 0; box-sizing: border-box;}
     html { font-size: 16px; }
-    body { min-height: 100vh; max-width: 400px; background-color: grey; Margin: 0 auto;}
+    body { min-height: 100vh; max-width: 400px; position: relative; font-family: helvetica, arial, sans-serif; background-color: grey; Margin: 0 auto;}
     @media (min-width: 0px) { p { font-size: 1rem; } h1, h2, h3 {font-size: 1.1rem;}}
     @media (min-width: 400px) { p { font-size: calc(1rem + 1vw); }
     h1, h2, h3 { font-size: calc(1.1rem + 1vw); }}
@@ -16,6 +16,8 @@
       #em1, #em2 { font-size: 1.5em; }
     h1 {color:red;}
   p {color:blue;} */
+  
+  
   
   /* creating the breadcrumb foundation */
 ul {  padding: 10px 16px; list-style: none;  background-color: #eee; } /* remove bullet points */
@@ -52,12 +54,39 @@ ul li+li:before { color: #99acc2; }
 
 .pagination a:hover:not(.active) {background-color: #ddd;}
   
+.blogs-section{
+    width: 100%;
+    padding: 50px 5vw;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 80px;}
+
+.blog-image{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;}
+
+.blog-overview{
+    margin: 10px 0 20px;
+    line-height: 30px;}
+
+.btn.dark{background: #1b1b1b;
+    color: #fff;}
+  
   </style>
 </head>
 <body>
 
   <h1>Joy of Synths</h1><h2>Sound Designing with Analog Synthesizers<h2>
-  <nav><ul>
+  <nav class="navbar">
+     <img src="img/logo.png" class="logo" alt="">
+        <ul class="links-container">
+            <li class="link-item"><a href="/" class="link">home</a></li>
+            <li class="link-item"><a href="/editor" class="link">editor</a></li>
+        </ul>
+    <ul>
         <li><a href="#URL">Top-level page like Home</a></li>
         <li><a href="#URL">Second-level page Blog</a></li>
         <li><a href="#URL">Third-level page Spring 2022</a></li>
@@ -81,4 +110,16 @@ ul li+li:before { color: #99acc2; }
     <p id="em1">site for joyofsynths.com</p>
     <p>030322- The Goal is to have a somewhat functional site soon! Somewhat...
     </p>
+  
+  <section class="blogs-section">
+    <div class="blog-card">
+        <img src="img/header.png" class="blog-image" alt="">
+        <h1 class="blog-title">Lorem ipsum dolor sit amet consectetur.</h1>
+        <p class="blog-overview">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt incidunt fugiat quos porro repellat harum. Adipisci tempora corporis rem cum.</p>
+        <a href="/" class="btn dark">read</a>
+    </div>
+    <h1 class="sub-heading">Read more</h1>
+</section>
+  
+  
   </body></html>
