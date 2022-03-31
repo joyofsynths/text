@@ -1,0 +1,265 @@
+<html>
+<head>
+<title>Semantic HTML</title>
+<style>
+
+body {
+    min-height: 1vw;
+Font-family: arial, helvetica, sans-serif;
+}
+
+
+h1,
+h2,
+h3,
+h4 {
+    margin: .1rem 0;
+Font-family:sans-serif;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.6rem;
+    padding-left: 20px;
+}
+
+h3 {
+    font-size: 1.4rem;
+    padding-left: 40px;
+}
+
+h4 {
+    font-size: 1.3rem;
+    font-style: italic;
+    padding-left: 60px;
+}
+
+
+/* applies a black outline to links only when focused via keyboard */
+a:focus-visible {
+ outline: 2px solid black;
+}
+
+
+button:focus-visible {
+	/* Default. Will be removed in Forced Color Modes */
+	box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.1); 
+	/* Fallback. Will be visible with custom system colors in Forced Color Modes */
+	outline: 1px solid transparent; 
+}
+
+
+
+nav {
+    border-bottom: 1px solid black;
+}
+
+.crumbs ol {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.crumb {
+    display: inline-block;
+}
+
+.crumb a::after {
+    display: inline-block;
+    color: #000;
+    content: '>';
+    font-size: 80%;
+    font-weight: bold;
+    padding: 0 3px;
+}
+
+<!— THIS IS THE PAGE HEADER. THIS PUTS AN IMAGE BEHIND A BOX. —>
+
+header.page-header {
+    background: no-repeat left/cover url(/media/examples/puppy-header-logo.jpg);
+    display: flex;
+    height: 120px;
+    min-width: 120px;
+    align-items: center;
+    color: #fff;
+    text-shadow: #000 0 0 .2em;
+}
+
+header.page-header > h1 {
+    font: bold calc(1em + 2 * (100vw - 120px) / 100) 'Dancing Script', cursive,
+        fantasy;
+    margin: 2%;
+}
+
+.forecast {
+    margin: 0;
+    padding: .3rem;
+    background-color: #eee;
+    font: 1rem 'Fira Sans', sans-serif;
+Max-width: 50ch;
+}
+
+.forecast > h1,
+.day-forecast {
+    margin: .5rem;
+    padding: .3rem;
+    font-size: 1.2rem;
+}
+
+.day-forecast {
+    background: right/contain content-box border-box no-repeat
+        url('/media/examples/rain.svg') white;
+}
+
+.day-forecast > h2,
+.day-forecast > p {
+    margin: .2rem;
+    font-size: 1rem;
+
+
+aside {
+    width: 40%;
+    padding-left: .5rem;
+    margin-left: .5rem;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px #29627e;
+    font-style: italic;
+    color: #29627e;
+}
+
+aside > p {
+    margin: .5rem;
+}
+
+p {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+footer {
+Display: block;
+text-align: center;
+    justify-content: center;
+    padding: 5px;
+    background-color: #45a1ff;
+    color: yellow;
+text-align: center;
+  padding: 3px;
+  background-color: DarkSalmon;
+  color: white;
+
+}
+
+
+
+</style>
+</head>
+<body>
+
+<header class="page-header">
+  <h1>Main Page Title</h1>
+  <img src="mdn-logo-sm.png" alt="MDN logo">
+</header>
+
+<nav class="crumbs">
+    <ol>
+        <li class="crumb"><a href="#">Synths</a></li>
+        <li class="crumb"><a href="#">littleBits</a></li>
+        <li class="crumb">Korg Synth Kit</li>
+    </ol>
+</nav>
+
+<h1>littleBits Korg Synth Kit</h1>
+<p>My favorite modular synth toy. You won't love it any less, though the high resale prices are such that you might as well buy yourself a semi-modular system. </p>
+
+
+<h1>Beetles</h1>
+    <h2>External morphology</h2>
+        <h3>Head</h3>
+            <h4>Mouthparts</h4>
+        <h3>Thorax</h3>
+            <h4>Prothorax</h4>
+            <h4>Pterothorax</h4>
+
+
+<span style="font-size: 32px; margin: 21px 0;">Is this a top level heading?</span>
+<article class="film_review">
+  <h2>Jurassic Park</h2>
+  <section class="main_review">
+    <h3>Review</h3>
+    <p>Dinos were great!</p>
+  </section>
+  <section class="user_reviews">
+    <h3>User reviews</h3>
+    <article class="user_review">
+      <h4>Too scary!</h4>
+      <p>Way too scary for me.</p>
+      <footer>
+        <p>
+          Posted on
+          <time datetime="2015-05-16 19:00">May 16</time>
+          by Lisa.
+        </p>
+      </footer>
+    </article>
+    <article class="user_review">
+      <h4>Love the dinos!</h4>
+      <p>I agree, dinos are my favorite.</p>
+      <footer>
+        <p>
+          Posted on
+          <time datetime="2015-05-17 19:00">May 17</time>
+          by Tom.
+        </p>
+      </footer>
+    </article>
+  </section>
+  <footer>
+    <p>
+      Posted on
+      <time datetime="2015-05-15 19:00">May 15</time>
+      by Staff.
+    </p>
+  </footer>
+</article>
+
+<h2>Forecast from https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article</h2>
+<p>Use this as a sidebar for linking to blog articles on front page. </p>
+<article class="forecast">
+    <h1>Joy of Synths</h1>
+    <article class="day-forecast">
+        <h2>01 April 2022</h2>
+        <p>Video: RTFM ASMR IMPLEXUS</p>
+    </article>
+    <article class="day-forecast">
+        <h2>08 April 2022</h2>
+        <p>This is awesome</p>
+    </article>
+    <article class="day-forecast">
+        <h2>0 March 25018</h2>
+        <p>Heavy rain.</p>
+    </article>
+</article>
+<main>
+
+
+<p>Salamanders are a group of amphibians with a lizard-like appearance, including short legs and a tail in both larval and adult forms.</p>
+
+<aside>
+    <p>The Rough-skinned Newt defends itself with a deadly neurotoxin.</p>
+</aside>
+
+<p>Several species of salamander inhabit the temperate rainforest of the Pacific Northwest, including the Ensatina, the Northwestern Salamander and the Rough-skinned Newt. Most salamanders are nocturnal, and hunt for insects, worms and other small creatures.</p>
+
+</main>
+
+ <footer>
+       © 2018 Gandalf
+    </footer>
+</article>
+
+
+
+</body>
+</html>

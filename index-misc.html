@@ -1,0 +1,273 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="1671.6">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+    span.Apple-tab-span {white-space:pre}
+  </style>
+</head>
+<body>
+<p class="p1">&lt;html&gt;</p>
+<p class="p1">&lt;head&gt;</p>
+<p class="p1">&lt;title&gt;Semantic HTML&lt;/title&gt;</p>
+<p class="p1">&lt;style&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">body {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>min-height: 1vw;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p2"><br></p>
+<p class="p1">h1,</p>
+<p class="p1">h2,</p>
+<p class="p1">h3,</p>
+<p class="p1">h4 {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>margin: .1rem 0;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">h1 {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>font-size: 5vw;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">h2 {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>font-size: 4.5vw;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>padding-left: 20px;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">h3 {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>font-size: 4vw;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>padding-left: 40px;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">h4 {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>font-size: 3vw;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>font-style: italic;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>padding-left: 60px;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p2"><br></p>
+<p class="p1">/* applies a black outline to links only when focused via keyboard */</p>
+<p class="p1">a:focus-visible {</p>
+<p class="p1"><span class="Apple-converted-space"> </span>outline: 2px solid black;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p2"><br></p>
+<p class="p1">button:focus-visible {</p>
+<p class="p1"><span class="Apple-tab-span">	</span>/* Default. Will be removed in Forced Color Modes */</p>
+<p class="p1"><span class="Apple-tab-span">	</span>box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.1);<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-tab-span">	</span>/* Fallback. Will be visible with custom system colors in Forced Color Modes */</p>
+<p class="p1"><span class="Apple-tab-span">	</span>outline: 1px solid transparent;<span class="Apple-converted-space"> </span></p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.forecast {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>margin: 0;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>padding: .3rem;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>background-color: #eee;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>font: 1rem 'Fira Sans', sans-serif;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">nav {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>border-bottom: 1px solid black;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.crumbs ol {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>list-style-type: none;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>padding-left: 0;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.crumb {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>display: inline-block;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.crumb a::after {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>display: inline-block;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>color: #000;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>content: '&gt;';</p>
+<p class="p1"><span class="Apple-converted-space">    </span>font-size: 80%;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>font-weight: bold;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>padding: 0 3px;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;!— THIS IS THE PAGE HEADER. THIS PUTS AN IMAGE BEHIND A BOX. —&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">header.page-header {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>background: no-repeat left/cover url(/media/examples/puppy-header-logo.jpg);</p>
+<p class="p1"><span class="Apple-converted-space">    </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>height: 120px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>min-width: 120px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>align-items: center;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>color: #fff;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>text-shadow: #000 0 0 .2em;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">header.page-header &gt; h1 {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>font: bold calc(1em + 2 * (100vw - 120px) / 100) 'Dancing Script', cursive,</p>
+<p class="p1"><span class="Apple-converted-space">        </span>fantasy;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>margin: 2%;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p2"><br></p>
+<p class="p2"><br></p>
+<p class="p1">.forecast &gt; h1,</p>
+<p class="p1">.day-forecast {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>margin: .5rem;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>padding: .3rem;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>font-size: 1.2rem;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.day-forecast {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>background: right/contain content-box border-box no-repeat</p>
+<p class="p1"><span class="Apple-converted-space">        </span>url('/media/examples/rain.svg') white;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.day-forecast &gt; h2,</p>
+<p class="p1">.day-forecast &gt; p {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>margin: .2rem;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>font-size: 1rem;</p>
+<p class="p2"><br></p>
+<p class="p2"><br></p>
+<p class="p1">aside {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>width: 40%;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>padding-left: .5rem;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>margin-left: .5rem;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>float: right;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>box-shadow: inset 5px 0 5px -5px #29627e;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>font-style: italic;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>color: #29627e;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">aside &gt; p {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>margin: .5rem;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">p {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>font-family: 'Fira Sans', sans-serif;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">footer {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>justify-content: center;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>padding: 5px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>background-color: #45a1ff;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>color: #fff;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p2"><br></p>
+<p class="p2"><br></p>
+<p class="p1">&lt;/style&gt;</p>
+<p class="p1">&lt;/head&gt;</p>
+<p class="p1">&lt;body&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;header class="page-header"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;h1&gt;Main Page Title&lt;/h1&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;img src="mdn-logo-sm.png" alt="MDN logo"&gt;</p>
+<p class="p1">&lt;/header&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;nav class="crumbs"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;ol&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;li class="crumb"&gt;&lt;a href="#"&gt;Synths&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;li class="crumb"&gt;&lt;a href="#"&gt;littleBits&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;li class="crumb"&gt;Korg Synth Kit&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/ol&gt;</p>
+<p class="p1">&lt;/nav&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;h1&gt;littleBits Korg Synth Kit&lt;/h1&gt;</p>
+<p class="p1">&lt;p&gt;My favorite modular synth toy. You won't love it any less, though the high resale prices are such that you might as well buy yourself a semi-modular system. &lt;/p&gt;</p>
+<p class="p2"><br></p>
+<p class="p2"><br></p>
+<p class="p1">&lt;h1&gt;Beetles&lt;/h1&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;h2&gt;External morphology&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;h3&gt;Head&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h4&gt;Mouthparts&lt;/h4&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;h3&gt;Thorax&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h4&gt;Prothorax&lt;/h4&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h4&gt;Pterothorax&lt;/h4&gt;</p>
+<p class="p2"><br></p>
+<p class="p2"><br></p>
+<p class="p1">&lt;span style="font-size: 32px; margin: 21px 0;"&gt;Is this a top level heading?&lt;/span&gt;</p>
+<p class="p1">&lt;article class="film_review"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;h2&gt;Jurassic Park&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;section class="main_review"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;h3&gt;Review&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;p&gt;Dinos were great!&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/section&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;section class="user_reviews"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;h3&gt;User reviews&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;article class="user_review"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;h4&gt;Too scary!&lt;/h4&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;p&gt;Way too scary for me.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;footer&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>Posted on</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;time datetime="2015-05-16 19:00"&gt;May 16&lt;/time&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>by Lisa.</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/footer&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/article&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;article class="user_review"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;h4&gt;Love the dinos!&lt;/h4&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;p&gt;I agree, dinos are my favorite.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;footer&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>Posted on</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;time datetime="2015-05-17 19:00"&gt;May 17&lt;/time&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>by Tom.</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/footer&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/article&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/section&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;footer&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>Posted on</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;time datetime="2015-05-15 19:00"&gt;May 15&lt;/time&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>by Staff.</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/footer&gt;</p>
+<p class="p1">&lt;/article&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;h2&gt;Forecast from https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article&lt;/h2&gt;</p>
+<p class="p1">&lt;p&gt;Use this as a sidebar for linking to blog articles on front page. &lt;/p&gt;</p>
+<p class="p1">&lt;article class="forecast"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;h1&gt;Joy of Synths&lt;/h1&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;article class="day-forecast"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;h2&gt;01 April 2022&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;p&gt;Video: RTFM ASMR IMPLEXUS&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/article&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;article class="day-forecast"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;h2&gt;08 April 2022&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;p&gt;This is awesome&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/article&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;article class="day-forecast"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;h2&gt;0 March 25018&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;p&gt;Heavy rain.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/article&gt;</p>
+<p class="p1">&lt;/article&gt;</p>
+<p class="p1">&lt;main&gt;</p>
+<p class="p2"><br></p>
+<p class="p2"><br></p>
+<p class="p1">&lt;p&gt;Salamanders are a group of amphibians with a lizard-like appearance, including short legs and a tail in both larval and adult forms.&lt;/p&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;aside&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;p&gt;The Rough-skinned Newt defends itself with a deadly neurotoxin.&lt;/p&gt;</p>
+<p class="p1">&lt;/aside&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;p&gt;Several species of salamander inhabit the temperate rainforest of the Pacific Northwest, including the Ensatina, the Northwestern Salamander and the Rough-skinned Newt. Most salamanders are nocturnal, and hunt for insects, worms and other small creatures.&lt;/p&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;/main&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space"> </span>&lt;footer&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;p&gt;© 2018 Gandalf&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/footer&gt;</p>
+<p class="p1">&lt;/article&gt;</p>
+<p class="p2"><br></p>
+<p class="p2"><br></p>
+<p class="p2"><br></p>
+<p class="p1">&lt;/body&gt;</p>
+<p class="p1">&lt;/html&gt;</p>
+</body>
+</html>
