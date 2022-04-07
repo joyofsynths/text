@@ -10,14 +10,44 @@
 img {
   margin: 6px;
 }
-  </style>
+  
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+</style>
 </head>
-<body>
+  <body>
   
 <div id="photo" style="text-align: center">
   <img style="vertical-align:middle" src="https://via.placeholder.com/22x22" alt="">
   <span style="vertical-align:middle">Take a photo</span>
 </div>
   
+<h2>Images Side by Side</h2>
+<p>How to create side-by-side images with CSS Flexbox:</p>
+
+<div class="row">
+  <div class="column">
+    <img src="img_snow.jpg" alt="Snow" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="img_forest.jpg" alt="Forest" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="img_mountains.jpg" alt="Mountains" style="width:100%">
+  </div>
+</div>
+
 </body>
 </html>
+
