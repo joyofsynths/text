@@ -1,0 +1,112 @@
+<!DOCtype html>
+<html> 
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    .container {
+  display: flex;
+}
+body {  
+    background-color: deepskyblue;  
+  } 
+  img {  
+    width: 350px; 
+    float: left; 
+    margin-right: 10px; 
+  } 
+div { 
+    float: left; 
+    width: calc(100% - 350px - 10px); 
+  } 
+  
+.box {
+  display: inline-block;
+}
+h1 {
+  width: 0;
+  min-width: 100%;
+}
+    
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+   /*Title Defines Image Width for .box 2 and img2 */
+ .box2 {
+  display: inline-block;
+  border:1px solid red;
+  margin:5px;
+}
+img2 {
+  width: 0;
+  min-width: 100%;
+}   
+   p {
+  width: 0;
+  min-width: 100%;
+  text-align:justify;
+}
+    
+</style>
+</head>
+  <body>
+      <div class="box">
+   <img>
+   <h1>Lorem ipsum dolor ..</h1>
+</div>
+    
+<div id="photo" style="text-align: center">
+  <img style="vertical-align:middle" src="https://via.placeholder.com/22x22" alt="">
+  <span style="vertical-align:middle">Take a photo</span>
+</div>
+  
+<h2>Images Side by Side</h2>
+<p>How to create side-by-side images with CSS Flexbox:</p>
+
+<div class="row">
+  <div class="column">
+    <img src="img_snow.jpg" alt="Snow" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="img_forest.jpg" alt="Forest" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="img_mountains.jpg" alt="Mountains" style="width:100%">
+  </div>
+</div>
+<article>
+  
+  <div class="box2">
+   <img src="https://picsum.photos/id/1/200/100">
+   <h2>Lorem ipsum </h2>
+</div>
+<div class="box2">
+   <img src="https://picsum.photos/id/1/200/100">
+   <h2>Lorem ipsum dolor </h2>
+</div>
+<div class="box2">
+   <img src="https://picsum.photos/id/1/200/100">
+   <h2>Lorem ipsum dolor silert</h2>
+</div>
+    </article>
+    <footer>
+      <div class="box2">
+   <h2>Lorem ipsum </h2>
+         <img src="https://picsum.photos/id/1/200/100">
+   <p>
+   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse egestas, odio id molestie feugiat, justo erat tincidunt nisl, eu interdum metus dui ut libero. Proin elit mi, dictum vitae sodales id, tincidunt in diam. Integer vehicula aliquet mi, quis tempus nisi tristique sit amet. 
+   </p>
+      </div></footer>
+      
+</body>
+</html>
+
