@@ -1,3 +1,6 @@
+2022-04-09: the site has the index.hmtl and long-blog-title. 
+Site could benefit from a subfolder. 
+
 <html>
 <head>  
   <title>Joy of Synths: Sound of Analog Synthesizers</title>
