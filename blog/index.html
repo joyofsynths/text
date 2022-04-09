@@ -50,16 +50,58 @@ main {
             height: 100%;
             background: grey;
         }
-        
+.forecast {
+    margin: 0;
+    padding: .3rem;
+    background-color: #eee;
+    font: 1rem 'Fira Sans', sans-serif;
+Max-width: 50ch;
+}
+
+.forecast > h1,
+.day-forecast {
+    margin: 1rem, .5rem;
+    padding: .3rem;
+    font-size: 1.2rem;
+}
+
+.day-forecast {
+    background: right/contain content-box border-box no-repeat
+        url('joy-of-synths-logo-01.svg') white;
+}
+
+.day-forecast > h2,
+.day-forecast > p {
+    margin: .2rem;
+    font-size: 1rem;
+
       </style>
     </head>
 
     <body>
             <main>
+                
+                <article class="forecast">
+    <h1>Joy of Synths Articles</h1>
+    <article class="day-forecast">
+        <h2>01 April 2022</h2>
+        <p>Video: RTFM ASMR IMPLEXUS</p>
+    </article>
+    <article class="day-forecast">
+        <h2>08 April 2022</h2>
+        <p>RTFM ASMR: Implexus</p>
+    </article>
+    <article class="day-forecast">
+        <h2>15 April 2022</h2>
+        <p>littleBits Korg Synth Kit</p>
+    </article>
+</article>
+                
         <a href="../index.html"><img src="../joy-of-synths-logo-01.svg" alt="Heart shaped logo"></a>
     
       <header>
         <h1>Joy of Synths Blog</h1>
+          
       <h2>Latest Blog Posts</h2>
           <p>This is a test to see if 100 px width will work with this dimensions.</p>
           <p>
@@ -69,6 +111,7 @@ main {
         
       </article>
             
+                
       <footer>
         Copyright 2022 Anthony Films LLC. All Rights Reserved. 
       </footer>
