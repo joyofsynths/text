@@ -1,0 +1,190 @@
+<!DOCTYPE html><html lang="en">
+<head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Non-musician's guide to creating sounds with analog synthesizers for your videos, podcast, or sampling for music.">
+    <title>Joy of Synths Non-Musician's Guide to Modular Analog Synthesizers</title>
+    
+<style type="text/css">        
+    * {box-sizing: border-box;}  
+body {background-color: ghostwhite;
+     font-family: 'Lora', serif;}
+a {color: white; font-family: "Gill Sans", "Gill Sans MT", "Helvetica", "Arial", "sans-serif";
+  padding: 0.2em .5em .4em .6em; background-color: #531948; border-radius: 1em; text-decoration-color:#A02424 }
+nav {margin: 0;padding: 1rem;text-align: center;line-height: 1.5; font-family: 'Comfortaa', sans-serif; font-size: 1.95rem; color: black;text-transform: capitalize; background: white}
+        
+main {
+    max-width: 1024px;
+    margin: 1rem auto;
+    overflow: hidden;
+    border-radius: 5em;
+    box-shadow: 2rem .5rem 4em 2rem rgba(70, 23, 85, .3);
+} 
+        
+h1 {
+    margin: 0;
+    padding: 5rem 0 .5rem;
+    text-align: center;
+    line-height: 1.1;
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 3.5rem;
+    color: white;
+    text-transform: uppercase;
+    background: linear-gradient(#4D194C, #A02424);
+} 
+/* Deleted a lot of stuff Footer and below */
+    }
+    
+</style>
+    <!-- PreLoading CSS from https://web.dev/defer-non-critical-css/ -->
+    <link rel="preload" 
+          href="styles.css" 
+          as="style" 
+          onload="this.onload=null;this.rel='stylesheet'">
+<noscript>
+    <link rel="stylesheet" href="styles.css">
+</noscript>
+    <!-- End Preloading CSS -->
+    <!-- 1. add Google Fonts here: Lora 400, Lora 400 italic, Comfortaa 700 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Lora:ital@0;1&display=swap" rel="stylesheet">
+</head>
+<body>
+       <a href="#contact"><img src="joy-of-synths-logo-01.svg" alt="Heart shaped logo"></a>
+    <main>
+        <h1>Joy of Synths</h1>
+        <h2>with Anthony Torres</h2>
+        <nav><a href="#watch">Watch</a>
+            <a href="#read">Read</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSdULVfPi4B2i5DjrQAX9-Tvplr9nwAQ5Bb-dI7LLiJcYqb8PQ/viewform?usp=sf_link" title="link" target="_blank">Subscribe</a> 
+            
+            <a href="#store">Buy Now!</a> 
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdMXmwkhqrzaU4cHqgGZhGPa0qqg9y5gtxO5MryjD7Aa8G8Ig/viewform?usp=sf_link" title="link" target="_blank">Contact</a></nav>
+        
+        <div id="quote">
+    <blockquote><cite>Joy of Synths</cite> is a non-musician's guide to creating sounds for your videos, podcasts, and sampling for music. 
+    </blockquote>
+        </div>
+        <h3>Analog Modular Synthesizers</h3>
+    </main>
+    <section>
+        <h1 id="watch">New Videos Every Week</h1>
+        <!-- Go Live July 4, 2022
+      <iframe
+  class="video"
+ src="https://www.youtube.com/embed/?list=anthonyfilmsdotcom&listType=user_uploads&loop=1&modestbranding=1"
+  frameborder="0"
+  allow="accelerometer;encrypted-media; gyroscope;"
+  allowfullscreen></iframe>
+        <br>
+        <iframe class="video" src="https://www.youtube-nocookie.com/embed/_wQlYxbcCxk" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+-->
+       <p>Starting at zero volts, we'll connect the dots to designing and recording analog synthesizer sounds that are uniquely yours and free of licensing fees and copyright strikes.</p>
+      <h2 id="store">Shop</h2>
+<p><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=9N24UUB3FFPVN" title="PayPal link" target="_blank"
+      style="font-size:1.7rem; background-color: #purple; color: #fff; border-radius: 10px; display: inline-block; padding: 10px 20px; margin:0; align-content: center;">Buy littleBits Music Inventor Kit for $109 shipped + tax</a></p>
+
+        <p style="font-family:sans-serif; color: black; font-weight: 300">littleBits Music Inventor Kit $109 postage paid + Tax within United States only.</p>
+        <p>
+          This kit is a fun way to see if synths are for you. Includes one each of following littleBits modules: 
+            <ul>
+        <li>Oscillator</li>
+        <li>4 Step Sequencer</li>
+        <li>Keyboard Controller</li>
+        <li>Speaker</li></ul>
+        <p>These bits are updated and feature sliders rather than dials. Voltage per Octave range is 0v to 5v, powered by 9volt battery. </p>
+        <p>This kit also includes proximity sensor for theremin-ish effect or air bongo. Ignore the air guitar on marketing materials. It's thin cardboard </p>
+        <p>NOTE: This kit does not come with a filter, envelope, splitter, or delay bit.</p><p>OFFLABEL USE: With two additional Proto bits purchased from littleBits.com, this kit is expandable to send "volts per octave" or gate signals to a modular synthesizer. </p><p>Don't buy 1 proto bit. You need 2 proto bits to output the voltage signal (right side) and gate signal (trigger out on top) from either the Sequencer or Keyboard bits. If you buy the CV bit, well, buy two of them. For the cost of 2 CV bits you could buy 6 Proto bits and patch cables. </p>
+        <p style="font-size:1.5rem;">Large Print: All sales final. No returns, refunds, or exchanges. Use PayPal link below. </p>
+        <!-- Paypal Button -->
+    <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=9N24UUB3FFPVN" title="PayPal link" target="_blank"
+       style="background-color: #purple; color: #fff; border-radius: 10px; display: inline-block; padding: 10px 20px; margin: 10px 0; align-content: center;">Buy littleBits Music Inventor Kit $109 + tax</a>
+
+
+    <h4 id="sub">Subscribe to Joy of Synths Newsletter</h4>
+        <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSdULVfPi4B2i5DjrQAX9-Tvplr9nwAQ5Bb-dI7LLiJcYqb8PQ/viewform?usp=sf_link" target="_blank" title="link">Subscribe now!</a>
+            Monthly newsletter with show notes, honest reviews with proof of purchase, and articles about synthesizers, sleep, and shopping mania.</p>
+    
+    <h5 id="contact">Contact</h5>
+        <p id="contact"> <a href="https://docs.google.com/forms/d/e/1FAIpQLSdMXmwkhqrzaU4cHqgGZhGPa0qqg9y5gtxO5MryjD7Aa8G8Ig/viewform?usp=sf_link" title="link" target="_blank">Contact Form</a> 
+            is a great way to contact us. 
+</p>
+    </section>
+
+    <!-- Code from index 2b for forecast -->
+    <!-- Stricken because it's like, just post videos and link to them. No need to be so exacting at the start.
+
+    <article class="forecast">
+    <h1 id="read">Joy of Synths Non-Musician's Guide</h1>
+            <article class="day-forecast">
+        <h6>03 July 2022</h6>
+                <p><a>New videos every Thursday</a> </p>
+        </article>
+            <article class="day-forecast">
+        <h6>07 July 2022</h6>
+        <p>Video #1</p>
+        <p><a href="blog040822-does-voltage-make-a-sound.html" title="link">Does voltage make a sound? blog</a></p>
+        </article>
+    <article class="day-forecast">
+        <h6>14 July 2022</h6>
+        <p><a href="blog040822-does-voltage-make-a-sound.html" title="link">Does voltage make a sound? blog</a></p><p>
+        </article>
+    <article class="day-forecast">
+        <h6>21 July 2022</h6>
+        <p><a href="blog/041522-modular-or-semimodular-synths.html" title="link">Modular Vs. SemiModular Synthesizers part 2</a></p>
+    </article>
+    <article class="day-forecast">
+        <h6>28 July 2022</h6>
+        <p><a href="#store" title="link">littleBits Music Inventor Kit and Control Voltage</a></p>
+    </article>
+          <article class="day-forecast">
+        <h6>04 August 2022</h6>
+        <p><a href="#store" title="link">Connecting littleBits to a Behringer Model D Semi-Modular Synthesizer</a></p>
+    </article>
+        <article class="day-forecast">
+        <h6>11 August 2022</h6>
+        <p><a href="#store" title="link">Getting Sound from Model D with 2 patch cables</a></p>
+    </article>
+        <article class="day-forecast">
+        <h6>18 August 2022</h6>
+        <p><a href="#store" title="link">Connecting littleBits to a Behringer Model D Semi-Modular Synthesizer</a></p>
+    </article>
+        <article class="day-forecast">
+        <h6>25 August 2022</h6>
+        <p><a href="#store" title="link">Modular: Capt'n Big-O voltage controlled oscillator review</a></p>
+    </article>
+        <article class="day-forecast">
+        <h6>1 September 2022</h6>
+        <p><a href="#store" title="link">Connecting littleBits to a Behringer Model D Semi-Modular Synthesizer</a></p>
+    </article>
+        <article class="day-forecast">
+        <h6>8 September 2022</h6>
+        <p><a href="#store" title="link">Connecting littleBits to a Behringer Model D Semi-Modular Synthesizer</a></p>
+    </article>
+        <article class="day-forecast">
+        <h6>15 September 2022</h6>
+        <p><a href="#store" title="link">Connecting littleBits to a Behringer Model D Semi-Modular Synthesizer</a></p>
+    </article>
+        <article class="day-forecast">
+        <h6>22 September 2022</h6>
+        <p><a href="#store" title="link">Connecting littleBits to a Behringer Model D Semi-Modular Synthesizer</a></p>
+    </article>
+        <article class="day-forecast">
+        <h6>29 September 2022</h6>
+        <p><a href="#store" title="link">Connecting littleBits to a Behringer Model D Semi-Modular Synthesizer</a></p>
+    </article>
+        
+        
+        
+</article>
+-->
+    
+<footer><p><br><cite>Joy of Synths</cite> is <br>An Anthony Torres Original produced by Anthony Films LLC in Orlando, Florida, USA.
+<br>Photography & Text by Anthony Torres.
+<br>All Contents Copyright 2022 Anthony Films LLC<br>All Rights Reserved. </p>
+</footer></body></html>
+ <!-- last updated by Anthony Torres
+07032022: Been filming from May through July 1. Revised May release to be New Videos on Thursday in July, August, September schedule. Basically videos will release on Thursdays.
+05042022: Set May 2022 Release schedule. I'd rather watch a video than read or listen... So, absolutely, all energy moves to video filming and editing. 
+04062022: Connect to Google/do the robots txt stuff. 
+04052022: Next Steps: Edit videos. Upload. Link to YT. Set up Blog page. Blog pages will be standalone, ex joyofsynths.com/blog/how-to-get-sound.html. Video will live on homepage. Thought: Curate other synthesizer videos on YT and hit up the creators to follow/check Joy of Synths. So that's just a long ass page. 
+04042022. All links are live. We're in business with PayPal button. Now I can get to the main project: video series. Yeah, I could go all social platforms but I want an audience for JoyofSynths.com, not something else. CSS design from tutorial by this dude on Treehouse. Forecast CSS from Mozilla Dev Network.--> 
