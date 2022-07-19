@@ -1,0 +1,195 @@
+<!DOCTYPE html><html lang="en">
+<head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Non-musician's guide to creating sounds with analog synthesizers for your videos, podcast, or sampling for music.">
+    <title>Joy of Synths Non-Musician's Guide to Modular Analog Synthesizers</title>
+    
+<style type="text/css">        
+    * {box-sizing: border-box;}  
+body {background-color: ghostwhite;
+     font-family: 'Lora', serif;}
+a {color: white; font-family: "Gill Sans", "Gill Sans MT", "Helvetica", "Arial", "sans-serif";
+  padding: 0.2em .5em .4em .6em; background-color: #531948; border-radius: 1em; text-decoration-color:#A02424 }
+nav {margin: 0;padding: 1rem;text-align: center;line-height: 1.5; font-family: 'Comfortaa', sans-serif; font-size: 1.95rem; color: black;text-transform: capitalize; background: white}
+        
+main {
+    max-width: 1024px;
+    margin: 1rem auto;
+    overflow: hidden;
+    border-radius: 5em;
+    box-shadow: 2rem .5rem 4em 2rem rgba(70, 23, 85, .3);
+} 
+        
+h1 {
+    margin: 0;
+    padding: 5rem 0 .5rem;
+    text-align: center;
+    line-height: 1.1;
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 3.5rem;
+    color: white;
+    text-transform: uppercase;
+    background: linear-gradient(#4D194C, #A02424);
+} 
+/* Deleted a lot of stuff Footer and below */
+    }
+    
+</style>
+    <!-- PreLoading CSS from https://web.dev/defer-non-critical-css/ -->
+    <link rel="preload" 
+          href="styles.css" 
+          as="style" 
+          onload="this.onload=null;this.rel='stylesheet'">
+<noscript>
+    <link rel="stylesheet" href="styles.css">
+</noscript>
+    <!-- End Preloading CSS -->
+    <!-- 1. add Google Fonts here: Lora 400, Lora 400 italic, Comfortaa 700 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Lora:ital@0;1&display=swap" rel="stylesheet">
+    
+    <!-- Global site tag (gtag.js) - Google Analytics. Added July 05 2022. Added Affiliate links on July 14 2022.  -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1W104RVQJM"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-1W104RVQJM');
+</script>
+    
+</head>
+<body>
+    <!--
+       <a href="#contact"><img src="joy-of-synths-logo-01.svg" alt="Heart shaped logo"></a>
+    -->
+    <main>
+       
+                                                                            
+        <h1> <a href="#watch" title="link for new videos each week"><img src="joy-of-synths-logo-01.svg" alt="Heart shaped logo"></a><br>Joy of Synths</h1>
+        
+        <h2>with Anthony Torres</h2>
+        <nav><a href="#watch">Watch</a>
+    <!--        <a href="#read">Read</a> -->
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSdULVfPi4B2i5DjrQAX9-Tvplr9nwAQ5Bb-dI7LLiJcYqb8PQ/viewform?usp=sf_link" title="link" target="_blank">Subscribe</a> 
+            
+            <a href="#store">Buy Now!</a> 
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdMXmwkhqrzaU4cHqgGZhGPa0qqg9y5gtxO5MryjD7Aa8G8Ig/viewform?usp=sf_link" title="link" target="_blank">Contact</a></nav>
+        
+        <div id="quote">
+    <blockquote><cite>Joy of Synths</cite> is a non-musician's guide to creating sounds for your videos, podcasts, and sampling for music. 
+    </blockquote>
+        </div>
+        <h3>Analog Modular Synthesizers</h3>
+    </main>
+    <section>
+        <h1 id="watch">New Videos Every Week</h1>
+    <!-- comment first iframe
+      <iframe
+  class="video"
+ src="https://www.youtube.com/embed/?list=anthonyfilmsdotcom&listType=user_uploads&loop=1&modestbranding=1"
+  frameborder="0"
+  allow="accelerometer;encrypted-media; gyroscope;"
+  allowfullscreen></iframe> -->
+<br>    <iframe class="video" src="https://www.youtube.com/embed/l8t_heNwSo4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>    
+        <p>Synopsis: Optical Illusion 40 minute Relaxation Sleep Soundtrack video with a playthrough of a Yamaha Motif-Rack XS voice. Deep rattling bass at times, so play low volume. <quote>"Tweaking this synthesizer's dials pushed me towards owning an analog synthesizer"- Anthony Torres </quote> </p>
+        <br>
+        <iframe class="video" src="https://www.youtube-nocookie.com/embed/xcDK4VMa6Dg" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p>Synopsis: Two hour video recording of looping IMPLEXUS. More useful as white/pink noise when awake. It didn't work as a sleep soundtrack in my case. Running a sequencer would provide more tonal variation to focus on and lock onto the repetition.   
+        </p>
+       <p>Starting at zero volts, we'll connect the dots to designing and recording analog synthesizer sounds that are uniquely yours and free of licensing fees and copyright strikes.</p>
+        
+    <h2 id="sub">Subscribe to Joy of Synths Newsletter</h2>
+        <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSdULVfPi4B2i5DjrQAX9-Tvplr9nwAQ5Bb-dI7LLiJcYqb8PQ/viewform?usp=sf_link" target="_blank" title="link">Subscribe now!</a>
+            Monthly newsletter with show notes, honest reviews with proof of purchase, and articles about synthesizers, sleep, and shopping mania.</p>
+        
+      <h3 id="store">Shop</h3>
+<p><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=9N24UUB3FFPVN" title="PayPal link" target="_blank"
+      style="font-size:1.7rem; background-color: #purple; color: #fff; border-radius: 10px; display: inline-block; padding: 10px 20px; margin:0; align-content: center;">Buy littleBits Music Inventor Kit for $109 shipped + tax</a></p>
+        <p>   <a href="https://amzn.to/3O2DylP" title="East Beast  Amazon Affiliate Link" target="_blank"
+      style="font-size:1.7rem; background-color: #purple; color: #fff; border-radius: 10px; display: inline-block; padding: 10px 20px; margin:0; align-content:
+            center;">East Beast Semi-Modular Analog Synth Instrument</a><br>
+            <p>
+I own one. For $250 you get over $400 worth of modules in a powered case ($100 value); Sequencer ($100 value); Filter ($100); Envelope Generator ($100); Oscillator and LFO ($150).  
+        </p>
+        
+           <p><a href="https://amzn.to/3Pch03k" title="Korg SQ-1 Analog Step Sequencer Amazon Affiliate Link" target="_blank"
+      style="font-size:1.7rem; background-color: #purple; color: #fff; border-radius: 10px; display: inline-block; padding: 10px 20px; margin:0; align-content:
+            center;">Korg SQ-1 Analog Step Sequencer / MIDI Controller</a><br>
+           I own one. Very misunderstood gear that is great for live recording (versus carefully crafting each note).
+        </p>
+    
+    <p><a href=https://amzn.to/3RAIxx9 title="Model D Analog Synth Amazon Affiliate Link" target="_blank"
+      style="font-size:1.7rem; background-color: #purple; color: #fff; border-radius: 10px; display: inline-block; padding: 10px 20px; margin:0; align-content:
+            center;">Model D Semi-Modular Analog Synthesizer</a><br>
+        I own two. They produce great sounds. 
+        </p>
+        
+    <p><a href=https://amzn.to/3Pm50vU title="Capt'n Big-O Amazon Affiliate Link" target="_blank"
+      style="font-size:1.7rem; background-color: #purple; color: #fff; border-radius: 10px; display: inline-block; padding: 10px 20px; margin:0; align-content:
+            center;">Capt'n Big-O Wavefolding Analog Eurorack Module (needs powered Eurorack case)</a><br>
+        </p>
+    <p><a href="https://amzn.to/3O9Nh9Y" title="Nifty Case Amazon Affiliate Link" target="_blank"
+      style="font-size:1.7rem; background-color: #purple; color: #fff; border-radius: 10px; display: inline-block; padding: 10px 20px; margin:0; align-content:
+            center;">Nifty Powered Eurorack Case Bundle with 2 Modules</a><br>
+        </p>
+   <p><a href="https://amzn.to/3yKGXjt" title="2600 ARP Clone Semi-Modular Instrument Amazon Affiliate Link" target="_blank"
+      style="font-size:1.7rem; background-color: #purple; color: #fff; border-radius: 10px; display: inline-block; padding: 10px 20px; margin:0; align-content:
+            center;">2600 Semi-Modular Analog Synthesizer Instrument</a><br>
+        </p>
+        <p>
+        <iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin" style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=anthonyfilms-20&language=en_US&marketplace=amazon&region=US&placement=B09XY3VRGW&asins=B09XY3VRGW&linkId=2a0eda765256644ae7979c2c31db7e5d&show_border=true&link_opens_in_new_window=true"></iframe>
+            <script type="text/javascript">
+amzn_assoc_tracking_id = "sluggomailord-20";
+amzn_assoc_ad_mode = "manual";
+amzn_assoc_ad_type = "smart";
+amzn_assoc_marketplace = "amazon";
+amzn_assoc_region = "US";
+amzn_assoc_design = "enhanced_links";
+amzn_assoc_asins = "B07WRDLNQZ";
+amzn_assoc_placement = "adunit";
+amzn_assoc_linkid = "e430b70ca641008f154c3bdca76c2a0b";
+</script>
+<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>
+
+        </p>
+        <br>
+        
+        <!--
+        <p style="font-family:sans-serif; color: black; font-weight: 300">littleBits Music Inventor Kit $109 postage paid + Tax within United States only.</p>
+        <p>
+          This kit is a fun way to see if synths are for you. Includes one each of following littleBits modules: 
+            <ul>
+        <li>Oscillator</li>
+        <li>4 Step Sequencer</li>
+        <li>Keyboard Controller</li>
+        <li>Speaker</li></ul>
+        <p>These bits are updated and feature sliders rather than dials. Voltage per Octave range is 0v to 5v, powered by 9volt battery. </p>
+        <p>This kit also includes proximity sensor for theremin-ish effect or air bongo. Ignore the air guitar on marketing materials. It's thin cardboard </p>
+        <p>NOTE: This kit does not come with a filter, envelope, splitter, or delay bit.</p><p>OFFLABEL USE: With two additional Proto bits purchased from littleBits.com, this kit is expandable to send "volts per octave" or gate signals to a modular synthesizer. </p><p>Don't buy 1 proto bit. You need 2 proto bits to output the voltage signal (right side) and gate signal (trigger out on top) from either the Sequencer or Keyboard bits. If you buy the CV bit, well, buy two of them. For the cost of 2 CV bits you could buy 6 Proto bits and patch cables. </p>
+        <p style="font-size:1.5rem;">Large Print: All sales final. No returns, refunds, or exchanges. Use PayPal link below. </p>
+-->
+        <!-- Paypal Button -->
+        <!-- Smaller text, removed until main copy is returned.
+    <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=9N24UUB3FFPVN" title="PayPal link" target="_blank"
+       style="background-color: #purple; color: #fff; border-radius: 10px; display: inline-block; padding: 10px 20px; margin: 10px 0; align-content: center;">Buy littleBits Music Inventor Kit $109 + tax</a>
+
+        -->
+    
+    <h4 id="contact">Contact</h4>
+        <p id="contact"> <a href="https://docs.google.com/forms/d/e/1FAIpQLSdMXmwkhqrzaU4cHqgGZhGPa0qqg9y5gtxO5MryjD7Aa8G8Ig/viewform?usp=sf_link" title="link" target="_blank">Contact Form</a> 
+            is the best way to reach us. 
+</p>
+    </section>
+    
+<footer>
+    <a href="#contact"><img src="joy-of-synths-logo-01.svg" alt="Heart shaped logo"></a>
+    <p><br><cite>Joy of Synths</cite> is <br>An Anthony Torres Original<br>Produced by Anthony Films LLC<br>Orlando, Florida, USA.
+<br>Photography & Text by Anthony Torres.
+<br>All Contents Copyright 2022 Anthony Films LLC<br>All Rights Reserved. </p>
+</footer></body></html>
+ <!-- last updated by Anthony Torres
+07052022 I don't gotta edit. I GET to edit.
+07052022 This version of JoyofSynths.com is live. Next must-haves are videos each week.
+07052022 Commented out and deleted sections like the release schedule. Doesn't make sense to announce and create an obligation rather than fun videos. 
+04042022. All links are live. We're in business with PayPal button. Now I can get to the main project: video series. Yeah, I could go all social platforms but I want an audience for JoyofSynths.com, not something else. CSS design from tutorial by this dude on Treehouse. Forecast CSS from Mozilla Dev Network.--> 
