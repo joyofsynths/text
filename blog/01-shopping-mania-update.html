@@ -1,0 +1,193 @@
+<!DOCTYPE html><html lang="en-US">
+<head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta http-equiv="Content-Security-Policy" content="script-src 'self'; object-src 'none'">
+  <meta name="description" content="Learn about voltage that powers analog modular synthesizers"/>
+<title>Joy of Synths | Does Voltage make a sound?</title>       
+    <style>
+ /*   .container {
+ /* display: flex;
+} */
+body {  
+    background-color: ghostwhite;
+    font-family: sans-serif;
+    font-size: 1.2rem;
+  } 
+ /* img {  
+    width: 350px; 
+    float: left; 
+    margin-right: 10px; 
+  } 
+div { 
+    float: left; 
+    width: calc(100% - 350px - 10px); 
+  } 
+  
+.box {
+  display: inline-block;
+}
+h1 {
+  width: 0;
+  min-width: 100%;
+}
+    
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+}
+*/
+/* Create three equal columns that sits next to each other */
+    /*
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+    */
+ 
+    h1 {font-family: sans-serif;
+        font-size: 2rem;
+        width:100%;
+    min-width: 100%;}
+   
+    
+    /*Title Defines Image Width for .box 2 and img2 */
+ .box2 {
+  display: inline-block;
+  border:1px solid purple;
+     padding: 1em;
+  margin: 1px;
+     min-width: 65%;
+     max-width: 90%;
+} 
+img {    
+  min-width: 50%;
+    max-width: 60%;
+    display: block;
+    vertical-align:text-bottom;
+}   
+   p {
+  width: 0;
+    font-family: sans-serif;
+  min-width: 95%;
+  text-align:justify;
+}
+  
+        /* override styles when printing */
+@media print {
+        @page {
+        margin-left: 75pt;
+            margin-right: 50pt;
+            margin-bottom: 50pt;
+            margin-top:50pt;
+            
+                    }
+    * {
+  background-image: none !important;
+}
+    
+.box{display: none;}
+
+img, svg {
+    display: none;}
+    
+body {
+    margin: 0;
+    color: #000;
+    background-color: #fff;
+    max-width: 100%;
+  }
+    .box2 { width: 100%;
+        column-width: 17em;
+  column-gap: 3em;
+        border: none;
+        margin: 5pt;
+}
+    a {color: black;
+        font-weight: bolder;
+        text-decoration: none} 
+a::after {
+  content: " (" attr(href) ")";
+}
+     nav, header, footer, aside, form, iframe, .menu, .hero, .adslot {
+  display: none !important;
+}
+    h2::before {content: "Joy of Synths Article by Anthony Torres. Please see JoyofSynths.com for the latest version of this information.";
+    display: block;
+    text-align: center;
+    font-size: 10pt;}
+article::after {
+  content: "Joy Of Synths.com Copyright 2022 Anthony Films LLC";
+  display: block;
+  text-align: center;
+}
+    h1, h2, h3, h4, h5, h6 {
+        break-after: avoid;
+        break-before: avoid;
+    }
+
+}
+    p {
+  orphans: 2;
+  widows: 2;
+}
+    
+</style>
+</head>
+  <body>
+     <header>   
+         <div class="box2">
+             
+         <h1>Joy of Synths</h1>
+             <p>About: Non-musician guide to creating sounds with analog synthesizers for your videos, podcast, or sampling for music.</p></div></header>
+         <nav><p><a href="index.html">Home</a> <a href="https://joyofsynths.substack.com">Subscribe!</a></p></nav>
+             
+         <article>
+         <div class="box2">
+             
+            <h2>Does Voltage Make a Sound?</h2>
+             <p>Let's start at zero volts with an Analog Modular Synthesizer Summary. </p>
+             <p>An analog synthesizer is a physical instrument that converts voltage into a sound signal. That is the magic of audio synthesis. </p>
+             <p>An analog synthesizer is a sum of parts. These parts are modules, hence the term "modular synthesizer."  </p><img class="img2" src="joy-of-synths-logo-01-2022-0407-400x400.gif" alt="heart shaped logo" title="joy of synths heart shaped logo"><p>Modular synthesizer modules are standalone units that are collected and provided power in a don't do anything until you connect them together and you provide power in a box/case/skiff/eurorack rack. "Patch Cables" are 3.5mm mono cables that serve as a bridge for signal to travel from one module to another module. In closing, if modules are not wired together with patch cables, nothing will happen. </p>
+             <h3>Semi-Modular Synthesizers</h3>
+             <p>An all-in-one powered synthesizer is called semi-modular. The advantage is that modules are pre-wired. This reduces the need for external wiring with patch cables. The synthesizer is semi-modular if it has open mini-jacks or a patchbay of mini-jacks that allow you to rewire the signal. </p>
+            
+             <p>Rewiring means you can send and receive signals from external devices. This can be a controller device like a keyboard controller or an analog step sequencer, which can repeat a number of notes, or steps. The keyboard and step sequencer transmit control voltage signals and gate/trigger signals. </p>
+             <p>So, does voltage make a sound? Depends. Control voltage and gate/trigger signals are voltage generated by a controller. Hence, control voltage. This is silent.</p>
+             <h4>Oscillators: VCO and LFO</h4>
+             <p>Sound is generated by an oscillator. An oscillator generates waveshapes. Whether or not you can hear an oscillator depends on the voltage reaching the oscillator. </p>
+             <h5>Frequency</h5>
+             <p>The range of human hearing is 20Hz to 20,000 Hz. Below 20Hz and above 20,000 Hz is said to be inaudible. </p>
+             <p>Oscillators can run the range of frequencies. A Low Frequency Oscillator, or LFO, is inaudible until you turn the dial full right. This low frequency takes advantage of waveshapes. </p>
+             <p>For example, a square waveshape is high, low, or on/off/on/off. A square LFO can be used to modulate other modules. Basically, you wire the LFO to send signal to a control dial. The LFO rate is turning the dial high/low, high/low, so you don't have to. </p>
+             <p>In review, a Modular Synthesizer is constructed of modules. A semi-modular synthesizer is pre-wired, with open jacks for you to connect external devices. A keyboard controller or step sequencer will send controlling voltage to a synthesizer. A controller's control voltage is silent. </p>
+             <h4>Audio is Control Voltage</h4>
+             <p>This is the fun stuff. An LFO signal is a low-frequency audio signal. Audio connected to a control voltage input will modulate that control dial. Low frequency means you can hear a sudden high/low change, or a rise between high and low signal. 
+             </p>
+             <h2>A Modular Synthesizer is best when its modules can be modulated. </h2>
+             <p>I'm a semi-modular fan. I have an ice tray repurposed as a modular rack for six modules. This requires a lot of patch cables. Getting the two to play together depends on the semi-modular instrument. Some are a closed audio system that allow control voltage in. Others may be really open. But it's the pre-wiring that can get confusing when you get started with analog synthesizers.</p>
+             <p>In closing, analog synthesizers are a great instrument for creating unique sounds. Just know that controller signals are also known as control voltage. And a keyboard or sequencer controller sends voltage signals that are labelled as control voltage or gate signals. Both are silent. Both are capable of changing sound in magical ways. </p>
+             
+             
+                 
+            
+         <p> The oscillator frequency, or pitch, is voltage controlled. This kind of oscillator is a VCO, or voltage controlled oscillator. It can be changed with voltage, as well, </p>
+             <p>
+             can generate an audio signal and filter out frequencies and make the sound louder and quieter by using voltage. </p>
+         <p>The signals traveling through a synthesizer are audio signals and control voltage, or CV. The key thing is that audio signal has energy. An audio signal's amplitude can serve as control voltage.</p>
+     <p>    
+You are working with audio signal and voltage signals. </p>
+             <p>Voltage alone doesn't create sound. Signals travelling in a synthesizer are audio signals or voltage that can change, or modulate, dial controls. </p>
+    
+<img class="img2" src="joy-of-synths-logo-01-2022-0407-400x400.gif" alt="heart shaped logo" title="joy of synths heart shaped logo">
+             <a href="https://youtube.com/cofwolves/"> YouTube Channel</a>
+      </div>
+         </article>
+<footer>
+      Copyright 2022 Anthony Films LLC<br>
+      All Rights Reserved</footer>
+      <footer>
+    Copyright 2022 Anthony Films LLC</footer>
+    </body>
+</html>
+
