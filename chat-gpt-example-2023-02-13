@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <title>My One Page Website</title>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">My Website</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#section1">Section 1</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#section2">Section 2</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#section3">Section 3</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Section 1 -->
+    <div class="container-fluid" id="section1">
+      <h1>Section 1</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+      
+      <h2>Section 2</h2>
+      <p>
+      Creating a mobile-first, one-page website requires a few key steps:</p>
+      <p>
+
+    Plan the content: Before you start coding, determine what content you want to include on your website and in what order. A one-page website often has limited space, so it's important to prioritize what is most important to include.</p>
+
+<p>
+    Choose a responsive design framework: Select a responsive design framework such as Bootstrap, Foundation, or Bulma to help you build your website. These frameworks provide pre-designed UI components and styles, which can save you time and ensure that your website looks great on both desktop and mobile devices. </p>
+    
+    <p>
+
+    Design the layout: Using your chosen framework, create a layout for your website that will adjust to the size of the screen it's being viewed on. Make sure to include a navigation menu that allows users to quickly jump to different sections of your page. </p>
+    
+    <p>
+
+    Write the HTML, CSS, and JavaScript: Use HTML to structure the content of your page, CSS to style it, and JavaScript to add any interactive elements. Make sure to test your website on different devices and browsers to ensure that it looks and functions correctly. </p>
+    
+    <p>
+
+    Optimize for performance: One-page websites can be slow to load if they have a lot of images or other media. Optimize your website's images and other assets to reduce load times, and use techniques like lazy loading to only load images when they are needed.
+</p>
+<p>
+Here is a basic example to get started: </p>
+
+</body>
+</html>
